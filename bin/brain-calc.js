@@ -3,15 +3,15 @@ import games from '../src/index.js';
 const rules = 'What is the result of the expression?';
 
 const randomNumbersOne = [
-  Math.round(Math.random() * 10),
-  Math.round(Math.random() * 10),
-  Math.round(Math.random() * 10),
+  Math.round(Math.random() * 100),
+  Math.round(Math.random() * 100),
+  Math.round(Math.random() * 100),
 ];
 
 const randomNumbersTwo = [
-  Math.round(Math.random() * 10),
-  Math.round(Math.random() * 10),
-  Math.round(Math.random() * 10),
+  Math.round(Math.random() * 100),
+  Math.round(Math.random() * 100),
+  Math.round(Math.random() * 100),
 ];
 
 function getRandomIntInclusive(min, max) {

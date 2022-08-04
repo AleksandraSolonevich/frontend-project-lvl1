@@ -11,9 +11,9 @@ const isEvenNumber = (number) => {
 };
 
 const questionData = [
-  String(Math.round(Math.random() * 10)),
-  String(Math.round(Math.random() * 10)),
-  String(Math.round(Math.random() * 10)),
+  String(Math.round(Math.random() * 100)),
+  String(Math.round(Math.random() * 100)),
+  String(Math.round(Math.random() * 100)),
 ];
 
 const trueAnswers = [
