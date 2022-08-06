@@ -25,7 +25,7 @@ const addDots = (progression, index) => {
 };
 
 const toString = (progression) => {
-  const myNewString = progression.join(',');
+  const myNewString = progression.join(' ');
   return myNewString;
 };
 
