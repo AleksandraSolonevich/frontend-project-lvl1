@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 import games from '../index.js';
 
 const letGsd = (numberOne, numberTwo) => {

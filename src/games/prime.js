@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 import games from '../index.js';
 
 const isNumberPrime = (number) => {
