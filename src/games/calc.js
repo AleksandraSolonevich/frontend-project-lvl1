@@ -53,9 +53,9 @@ const calc = () => {
   ];
 
   const trueAnswers = [
-    getCorrectAnswer(randomNumbersOne[0], randomNumbersTwo[0], randomOperators[0]),
-    getCorrectAnswer(randomNumbersOne[1], randomNumbersTwo[1], randomOperators[1]),
-    getCorrectAnswer(randomNumbersOne[2], randomNumbersTwo[2], randomOperators[2]),
+    String(getCorrectAnswer(randomNumbersOne[0], randomNumbersTwo[0], randomOperators[0])),
+    String(getCorrectAnswer(randomNumbersOne[1], randomNumbersTwo[1], randomOperators[1])),
+    String(getCorrectAnswer(randomNumbersOne[2], randomNumbersTwo[2], randomOperators[2])),
   ];
 
   return games(rules, questionData, trueAnswers);
