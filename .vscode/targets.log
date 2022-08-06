@@ -1,6 +1,4 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
-make: *** No rule to make target 'all'.  Stop.
-
 # GNU Make 4.2.1
 # Built for x86_64-pc-linux-gnu
 # Copyright (C) 1988-2016 Free Software Foundation, Inc.
@@ -8,7 +6,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Fri Aug  5 12:43:30 2022
+# Make data base, printed on Sat Aug  6 13:36:58 2022
 
 # Variables
 
@@ -51,7 +49,7 @@ PATH = /home/aleksandrasolonevich/.vscode-server/bin/3b889b090b5ad5793f524b5d1d3
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-682e0567-22e1-4eb6-bd5f-09e1ae2c8b41.sock
+VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-a2e81245-cdac-4c2b-88b4-61e23bab3249.sock
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -63,7 +61,7 @@ PWD = /home/aleksandrasolonevich/frontend-project-lvl1
 # default
 .LOADED := 
 # environment
-WSL_INTEROP = /run/WSL/9_interop
+WSL_INTEROP = /run/WSL/6534_interop
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
@@ -183,7 +181,7 @@ brain-games:
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-08-04 12:19:05.6049238
+#  Last modified 2022-08-05 14:48:56.563934
 #  File has been updated.
 #  Successfully updated.
 
@@ -214,6 +212,13 @@ publish:
 #  recipe to execute (from 'Makefile', line 4):
 		npm publish --dry-run
 
+brain-progression:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 16):
+		node bin/brain-progression.js
+
 lint:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
@@ -229,19 +234,21 @@ install:
 		npm ci
 
 # files hash-table stats:
-# Load=11/1024=1%, Rehash=0, Collisions=0/21=0%
+# Load=12/1024=1%, Rehash=0, Collisions=0/22=0%
 # VPATH Search Paths
 
 # No 'vpath' search paths.
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 26 / storage = 242 B / avg = 9 B
-# current buf: size = 8162 B / used = 242 B / count = 26 / avg = 9 B
+# strcache buffers: 1 (0) / strings = 27 / storage = 260 B / avg = 9 B
+# current buf: size = 8162 B / used = 260 B / count = 27 / avg = 9 B
 
-# strcache performance: lookups = 37 / hit rate = 29%
+# strcache performance: lookups = 39 / hit rate = 30%
 # hash-table stats:
-# Load=26/8192=0%, Rehash=0, Collisions=1/37=3%
-# Finished Make data base on Fri Aug  5 12:43:30 2022
+# Load=27/8192=0%, Rehash=0, Collisions=1/39=3%
+# Finished Make data base on Sat Aug  6 13:36:58 2022
 
  
+make: *** No rule to make target 'all'.  Stop.
+

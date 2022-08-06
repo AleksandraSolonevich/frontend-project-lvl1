@@ -1,4 +1,4 @@
-import games from '../src/index.js';
+import games from '../../src/index.js';
 
 const isEvenNumber = (number) => {
   let trueAnswers = '';
@@ -19,7 +19,7 @@ const questionData = [
 const trueAnswers = [
   isEvenNumber(questionData[0]),
   isEvenNumber(questionData[1]),
-  isEvenNumber(questionData[3]),
+  isEvenNumber(questionData[2]),
 ];
 
 const rules = 'Answer "yes" if the number is even, otherwise answer "no".';

@@ -1,4 +1,4 @@
-import games from '../src/index.js';
+import games from '../../src/index.js';
 
 const rules = 'What number is missing in the progression?';
 
