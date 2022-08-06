@@ -24,6 +24,11 @@ const addDots = (progression, index) => {
   return progrWihtDots;
 };
 
+const toString = (progression) => {
+  const myNewString = progression.join(',');
+  return myNewString;
+};
+
 const progression = () => {
   const rules = 'What number is missing in the progression?';
 
@@ -57,10 +62,14 @@ const progression = () => {
   const progressionWithDots2 = addDots(progression2, randomIndexOfProgr2);
   const progressionWithDots3 = addDots(progression3, randomIndexOfProgr3);
 
+  const stringProgression1 = toString(progressionWithDots1);
+  const stringProgression2 = toString(progressionWithDots2);
+  const stringProgression3 = toString(progressionWithDots3);
+
   const questionData = [
-    progressionWithDots1,
-    progressionWithDots2,
-    progressionWithDots3,
+    stringProgression1,
+    stringProgression2,
+    stringProgression3,
   ];
 
   return games(rules, questionData, trueAnswers);
